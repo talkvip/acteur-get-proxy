@@ -2,12 +2,12 @@ Acteur Get Proxy
 ================
 
 A demo of how simple it is to write a proxy with [Acteur](https://github.com/timboudreau/acteur) + 
-[Netty](http://netty.io), mainly in response to 
+[Netty](http://netty.io) and [Netty HTTP Client](https://github.com/timboudreau/netty-http-client), mainly in response to 
 [this stackoverflow question](https://stackoverflow.com/questions/27923680/asynchronous-http-request-handling-with-tomcat-and-spring).
 The entire project consists of three Java source files.
 
 Uses entirely asynchronous I/O to implement a simple HTTP proxy for GET requests, with
-a naive cache for responses it's already seen.
+a *very* naive cache for responses it's already seen (it's a demo!).
 
 Build
 -----
