@@ -51,3 +51,7 @@ The document has moved
 <A HREF="http://www.google.com/">here</A>.
 </BODY></HTML>
 ```
+
+Note the rewritten `Location` header in the response - a redirect to a remote
+server is rewritten as a redirect to the proxy server with the actual redirect
+url as a parameter.
